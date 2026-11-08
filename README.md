@@ -12,6 +12,20 @@ Aplikasi manajemen berbasis web untuk mengelola informasi dan pengguna, dibangun
 - Dashboard ringkasan jumlah pengguna.
 - Perlindungan CSRF pada proses hapus dan pada form pengguna, serta prepared statement untuk query database.
 
+## Tampilan Aplikasi
+
+**Dashboard**
+
+![Dashboard](docs/screenshots/wms-dashboard.jpg)
+
+**Pengelolaan Pengguna** (pencarian dan filter role)
+
+![Data Pengguna](docs/screenshots/wms-pengguna.jpg)
+
+**Pengelolaan Informasi** (pencarian, filter kategori dan status)
+
+![Data Informasi](docs/screenshots/wms-informasi.jpg)
+
 ## Teknologi
 PHP, MySQL (MySQLi), HTML, CSS
 
@@ -34,6 +48,7 @@ Akun ini hanya untuk percobaan lokal. Ganti passwordnya jika aplikasi dipasang d
 web-management-system/
 ├── assets/css/style.css
 ├── config/database.php
+├── docs/screenshots/
 ├── informasi/      (index, tambah, edit, delete)
 ├── pengguna/       (index, tambah, edit, delete)
 ├── dashboard.php
